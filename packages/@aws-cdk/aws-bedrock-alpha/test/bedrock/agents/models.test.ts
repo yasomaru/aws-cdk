@@ -225,6 +225,12 @@ describe('BedrockFoundationModel', () => {
       expect(BedrockFoundationModel.TITAN_EMBED_TEXT_V1.supportedVectorType).toEqual([VectorType.FLOATING_POINT]);
     });
 
+    test('Amazon Nova 2 models are configured correctly', () => {
+      expect(BedrockFoundationModel.AMAZON_NOVA_2_LITE_V1.modelId).toBe('amazon.nova-2-lite-v1:0');
+      expect(BedrockFoundationModel.AMAZON_NOVA_2_LITE_V1.supportsAgents).toBe(true);
+      expect(BedrockFoundationModel.AMAZON_NOVA_2_LITE_V1.supportsCrossRegion).toBe(true);
+    });
+
     test('Anthropic models are configured correctly', () => {
       expect(BedrockFoundationModel.ANTHROPIC_CLAUDE_3_7_SONNET_V1_0.modelId).toBe('anthropic.claude-3-7-sonnet-20250219-v1:0');
       expect(BedrockFoundationModel.ANTHROPIC_CLAUDE_3_7_SONNET_V1_0.supportsAgents).toBe(true);

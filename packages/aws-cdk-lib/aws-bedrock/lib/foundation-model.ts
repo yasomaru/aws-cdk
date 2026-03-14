@@ -95,7 +95,13 @@ export class FoundationModelIdentifier {
   /** Base model "amazon.nova-premier-v1:0". */
   public static readonly AMAZON_NOVA_PREMIER_V1_0 = new FoundationModelIdentifier('amazon.nova-premier-v1:0');
 
-  /** amazon.nova-2-multimodal-embeddings-v1:0 */
+  /** Base model "amazon.nova-2-lite-v1:0". */
+  public static readonly AMAZON_NOVA_2_LITE_V1_0 = new FoundationModelIdentifier('amazon.nova-2-lite-v1:0');
+
+  /** Base model "amazon.nova-2-sonic-v1:0". */
+  public static readonly AMAZON_NOVA_2_SONIC_V1_0 = new FoundationModelIdentifier('amazon.nova-2-sonic-v1:0');
+
+  /** Base model "amazon.nova-2-multimodal-embeddings-v1:0". */
   public static readonly AMAZON_NOVA_2_MULTIMODAL_EMBEDDINGS_V1_0 = new FoundationModelIdentifier('amazon.nova-2-multimodal-embeddings-v1:0');
 
   /**
@@ -326,8 +332,20 @@ export class FoundationModelIdentifier {
   /** Base model "deepseek.r1-v1:0". */
   public static readonly DEEP_SEEK_R1_V1_0 = new FoundationModelIdentifier('deepseek.r1-v1:0');
 
-  /** Base model "deepseek.v3-v1:0" */
+  /** Base model "deepseek.v3-v1:0". */
   public static readonly DEEP_SEEK_V3_V1_0 = new FoundationModelIdentifier('deepseek.v3-v1:0');
+
+  /** Base model "deepseek.v3.2". */
+  public static readonly DEEP_SEEK_V3_2 = new FoundationModelIdentifier('deepseek.v3.2');
+
+  /** Base model "google.gemma-3-4b-it". */
+  public static readonly GOOGLE_GEMMA_3_4B_IT = new FoundationModelIdentifier('google.gemma-3-4b-it');
+
+  /** Base model "google.gemma-3-12b-it". */
+  public static readonly GOOGLE_GEMMA_3_12B_IT = new FoundationModelIdentifier('google.gemma-3-12b-it');
+
+  /** Base model "google.gemma-3-27b-it". */
+  public static readonly GOOGLE_GEMMA_3_27B_IT = new FoundationModelIdentifier('google.gemma-3-27b-it');
 
   /** Base model "openai.gpt-oss-120b-1:0". */
   public static readonly OPENAI_GPT_OSS_120B_1 = new FoundationModelIdentifier('openai.gpt-oss-120b-1:0');
@@ -335,8 +353,35 @@ export class FoundationModelIdentifier {
   /** Base model "openai.gpt-oss-20b-1:0". */
   public static readonly OPENAI_GPT_OSS_20B_1 = new FoundationModelIdentifier('openai.gpt-oss-20b-1:0');
 
+  /** Base model "openai.gpt-oss-safeguard-120b". */
+  public static readonly OPENAI_GPT_OSS_SAFEGUARD_120B = new FoundationModelIdentifier('openai.gpt-oss-safeguard-120b');
+
+  /** Base model "openai.gpt-oss-safeguard-20b". */
+  public static readonly OPENAI_GPT_OSS_SAFEGUARD_20B = new FoundationModelIdentifier('openai.gpt-oss-safeguard-20b');
+
   /** Base model "luma.ray-v2:0". */
   public static readonly LUMA_RAY_V2_0 = new FoundationModelIdentifier('luma.ray-v2:0');
+
+  /** Base model "minimax.minimax-m2". */
+  public static readonly MINIMAX_M2 = new FoundationModelIdentifier('minimax.minimax-m2');
+
+  /** Base model "minimax.minimax-m2.1". */
+  public static readonly MINIMAX_M2_1 = new FoundationModelIdentifier('minimax.minimax-m2.1');
+
+  /** Base model "moonshot.kimi-k2-thinking". */
+  public static readonly MOONSHOT_KIMI_K2_THINKING = new FoundationModelIdentifier('moonshot.kimi-k2-thinking');
+
+  /** Base model "moonshotai.kimi-k2.5". */
+  public static readonly MOONSHOTAI_KIMI_K2_5 = new FoundationModelIdentifier('moonshotai.kimi-k2.5');
+
+  /** Base model "nvidia.nemotron-nano-9b-v2". */
+  public static readonly NVIDIA_NEMOTRON_NANO_9B_V2 = new FoundationModelIdentifier('nvidia.nemotron-nano-9b-v2');
+
+  /** Base model "nvidia.nemotron-nano-12b-v2". */
+  public static readonly NVIDIA_NEMOTRON_NANO_12B_V2 = new FoundationModelIdentifier('nvidia.nemotron-nano-12b-v2');
+
+  /** Base model "nvidia.nemotron-nano-3-30b". */
+  public static readonly NVIDIA_NEMOTRON_NANO_3_30B = new FoundationModelIdentifier('nvidia.nemotron-nano-3-30b');
 
   /**
    * Base model "meta.llama2-13b-v1".
@@ -446,6 +491,30 @@ export class FoundationModelIdentifier {
   /** Base model "mistral.pixtral-large-2502-v1:0". */
   public static readonly MISTRAL_PIXTRAL_LARGE_2502_V1_0 = new FoundationModelIdentifier('mistral.pixtral-large-2502-v1:0');
 
+  /** Base model "mistral.devstral-2-123b". */
+  public static readonly MISTRAL_DEVSTRAL_2_123B = new FoundationModelIdentifier('mistral.devstral-2-123b');
+
+  /** Base model "mistral.magistral-small-2509". */
+  public static readonly MISTRAL_MAGISTRAL_SMALL_2509 = new FoundationModelIdentifier('mistral.magistral-small-2509');
+
+  /** Base model "mistral.ministral-3-3b-instruct". */
+  public static readonly MISTRAL_MINISTRAL_3_3B_INSTRUCT = new FoundationModelIdentifier('mistral.ministral-3-3b-instruct');
+
+  /** Base model "mistral.ministral-3-8b-instruct". */
+  public static readonly MISTRAL_MINISTRAL_3_8B_INSTRUCT = new FoundationModelIdentifier('mistral.ministral-3-8b-instruct');
+
+  /** Base model "mistral.ministral-3-14b-instruct". */
+  public static readonly MISTRAL_MINISTRAL_3_14B_INSTRUCT = new FoundationModelIdentifier('mistral.ministral-3-14b-instruct');
+
+  /** Base model "mistral.mistral-large-3-675b-instruct". */
+  public static readonly MISTRAL_LARGE_3_675B_INSTRUCT = new FoundationModelIdentifier('mistral.mistral-large-3-675b-instruct');
+
+  /** Base model "mistral.voxtral-mini-3b-2507". */
+  public static readonly MISTRAL_VOXTRAL_MINI_3B_2507 = new FoundationModelIdentifier('mistral.voxtral-mini-3b-2507');
+
+  /** Base model "mistral.voxtral-small-24b-2507". */
+  public static readonly MISTRAL_VOXTRAL_SMALL_24B_2507 = new FoundationModelIdentifier('mistral.voxtral-small-24b-2507');
+
   /** Base Model "qwen.qwen3-32b-v1:0" */
   public static readonly QWEN_QWEN3_32B_V1_0 = new FoundationModelIdentifier('qwen.qwen3-32b-v1:0');
 
@@ -457,6 +526,15 @@ export class FoundationModelIdentifier {
 
   /** Base Model "qwen.qwen3-coder-480b-a35b-v1:0" */
   public static readonly QWEN_QWEN3_CODER_480B_A35B_V1_0 = new FoundationModelIdentifier('qwen.qwen3-coder-480b-a35b-v1:0');
+
+  /** Base model "qwen.qwen3-coder-next". */
+  public static readonly QWEN_QWEN3_CODER_NEXT = new FoundationModelIdentifier('qwen.qwen3-coder-next');
+
+  /** Base model "qwen.qwen3-next-80b-a3b". */
+  public static readonly QWEN_QWEN3_NEXT_80B_A3B = new FoundationModelIdentifier('qwen.qwen3-next-80b-a3b');
+
+  /** Base model "qwen.qwen3-vl-235b-a22b". */
+  public static readonly QWEN_QWEN3_VL_235B_A22B = new FoundationModelIdentifier('qwen.qwen3-vl-235b-a22b');
 
   /**
    * Base model "stability.stable-diffusion-xl".
@@ -500,6 +578,45 @@ export class FoundationModelIdentifier {
   /** Base model "stability.stable-image-core-v1:1". */
   public static readonly STABILITY_STABLE_IMAGE_CORE_V1_1 = new FoundationModelIdentifier('stability.stable-image-core-v1:1');
 
+  /** Base model "stability.stable-conservative-upscale-v1:0". */
+  public static readonly STABILITY_STABLE_CONSERVATIVE_UPSCALE_V1_0 = new FoundationModelIdentifier('stability.stable-conservative-upscale-v1:0');
+
+  /** Base model "stability.stable-creative-upscale-v1:0". */
+  public static readonly STABILITY_STABLE_CREATIVE_UPSCALE_V1_0 = new FoundationModelIdentifier('stability.stable-creative-upscale-v1:0');
+
+  /** Base model "stability.stable-fast-upscale-v1:0". */
+  public static readonly STABILITY_STABLE_FAST_UPSCALE_V1_0 = new FoundationModelIdentifier('stability.stable-fast-upscale-v1:0');
+
+  /** Base model "stability.stable-image-control-sketch-v1:0". */
+  public static readonly STABILITY_STABLE_IMAGE_CONTROL_SKETCH_V1_0 = new FoundationModelIdentifier('stability.stable-image-control-sketch-v1:0');
+
+  /** Base model "stability.stable-image-control-structure-v1:0". */
+  public static readonly STABILITY_STABLE_IMAGE_CONTROL_STRUCTURE_V1_0 = new FoundationModelIdentifier('stability.stable-image-control-structure-v1:0');
+
+  /** Base model "stability.stable-image-erase-object-v1:0". */
+  public static readonly STABILITY_STABLE_IMAGE_ERASE_OBJECT_V1_0 = new FoundationModelIdentifier('stability.stable-image-erase-object-v1:0');
+
+  /** Base model "stability.stable-image-inpaint-v1:0". */
+  public static readonly STABILITY_STABLE_IMAGE_INPAINT_V1_0 = new FoundationModelIdentifier('stability.stable-image-inpaint-v1:0');
+
+  /** Base model "stability.stable-image-remove-background-v1:0". */
+  public static readonly STABILITY_STABLE_IMAGE_REMOVE_BACKGROUND_V1_0 = new FoundationModelIdentifier('stability.stable-image-remove-background-v1:0');
+
+  /** Base model "stability.stable-image-search-recolor-v1:0". */
+  public static readonly STABILITY_STABLE_IMAGE_SEARCH_RECOLOR_V1_0 = new FoundationModelIdentifier('stability.stable-image-search-recolor-v1:0');
+
+  /** Base model "stability.stable-image-search-replace-v1:0". */
+  public static readonly STABILITY_STABLE_IMAGE_SEARCH_REPLACE_V1_0 = new FoundationModelIdentifier('stability.stable-image-search-replace-v1:0');
+
+  /** Base model "stability.stable-image-style-guide-v1:0". */
+  public static readonly STABILITY_STABLE_IMAGE_STYLE_GUIDE_V1_0 = new FoundationModelIdentifier('stability.stable-image-style-guide-v1:0');
+
+  /** Base model "stability.stable-outpaint-v1:0". */
+  public static readonly STABILITY_STABLE_OUTPAINT_V1_0 = new FoundationModelIdentifier('stability.stable-outpaint-v1:0');
+
+  /** Base model "stability.stable-style-transfer-v1:0". */
+  public static readonly STABILITY_STABLE_STYLE_TRANSFER_V1_0 = new FoundationModelIdentifier('stability.stable-style-transfer-v1:0');
+
   /** Base model "writer.palmyra-x4-v1:0". */
   public static readonly WRITER_PALMYRA_X4_V1_0 = new FoundationModelIdentifier('writer.palmyra-x4-v1:0');
 
@@ -512,8 +629,14 @@ export class FoundationModelIdentifier {
   /** Base model "twelvelabs.pegasus-1-2-v1:0". */
   public static readonly TWELVELABS_PEGASUS_1_2_V1_0 = new FoundationModelIdentifier('twelvelabs.pegasus-1-2-v1:0');
 
-  /** Basic model "twelvelabs.marengo-embed-3-0-v1:0" */
+  /** Base model "twelvelabs.marengo-embed-3-0-v1:0". */
   public static readonly TWELVELABS_MARENGO_EMBED_3_0_V1_0 = new FoundationModelIdentifier('twelvelabs.marengo-embed-3-0-v1:0');
+
+  /** Base model "zai.glm-4.7-flash". */
+  public static readonly ZAI_GLM_4_7_FLASH = new FoundationModelIdentifier('zai.glm-4.7-flash');
+
+  /** Base model "zai.glm-4.7". */
+  public static readonly ZAI_GLM_4_7 = new FoundationModelIdentifier('zai.glm-4.7');
 
   /**
    * Constructor for foundation model identifier
